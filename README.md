@@ -19,4 +19,7 @@ Los usuarios que crearon un comentario pueden borrarlo.
 2. `Crear una base de datos llamada 'api_rest_codeforum' vacía`
 3. `npm run start`
 
+## Licencia
+MIT
+
 
