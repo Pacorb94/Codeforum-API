@@ -15,7 +15,7 @@ Los usuarios que crearon un comentario pueden borrarlo.
 * MongoDB
 
 ## Pasos a seguir (dentro del proyecto)
-1. `npm install`
+1. `npm i` o `npm install`
 2. `Crear una base de datos llamada 'api_rest_codeforum' vacía`
 3. `npm run start`
 
