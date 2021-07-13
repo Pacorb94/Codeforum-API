@@ -12,7 +12,7 @@ Los usuarios que crearon un comentario pueden borrarlo.
 
 ## Requisitos
 * Node.js
-* MongoDB
+* MongoDB 4.4
 
 ## Pasos a seguir (dentro del proyecto)
 1. `npm i` o `npm install`
