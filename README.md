@@ -2,7 +2,7 @@
 Aprender Node.js con Express.js y MongoDB
 
 ## Descripción
-Aplicación web construida en forma de API RESTful en la que cada usuario puede poner
+Back-end en forma de API RESTful en la que cada usuario puede poner
 temas preguntando dudas sobre el código que escriba y los otros usuarios
 hacen comentarios respondiendo su pregunta. 
 Se puede buscar temas mediante un buscador.
