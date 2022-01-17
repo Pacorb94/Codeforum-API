@@ -17,7 +17,7 @@ Los usuarios que crearon un comentario pueden borrarlo.
 
 ## Desplegar
 1. `npm i` o `npm install`
-2. `Crear una base de datos llamada 'api_rest_codeforum' vacía`
+2. `Crear una base de datos llamada 'codeforum' vacía`
 3. `npm run start`
 
 ## Licencia
