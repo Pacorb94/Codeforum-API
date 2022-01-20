@@ -1,4 +1,4 @@
-# Objetivo
+## Objetivo
 Aprender Node.js con Express.js y MongoDB
 
 ## Descripción
