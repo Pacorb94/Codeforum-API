@@ -11,15 +11,10 @@ El usuario puede editar su perfil.
 Los usuarios que crearon un comentario pueden borrarlo.
 
 
-## Requisitos
-* Node.js
-* Express.js
-* MongoDB
-
-## Desplegar
-1. `npm i` o `npm install`
-2. `Crear una base de datos llamada 'codeforum' vacía`
-3. `npm run start`
+## Despliegue en producción
+0. Si no tienes Docker Compose instálalo.
+1. Crea los contenedores `docker-compose up -d --build`
+2. URL de la API `http://localhost:3001/api`
 
 ## Licencia
 MIT
