@@ -11,7 +11,7 @@ El usuario puede editar su perfil.
 Los usuarios que crearon un comentario pueden borrarlo.
 
 
-## Despliegue en producción
+## Despliegue
 0. Si no tienes Docker Compose instálalo.
 1. Crea los contenedores `docker-compose up -d --build`
 2. URL de la API `http://localhost:3001/api`
