@@ -3,7 +3,7 @@ const mongoose=require('mongoose');
 //Nos permite usar promesas
 mongoose.Promise=global.Promise;
 //Conexión
-mongoose.connect('mongodb://localhost:27017/codeforum', 
+mongoose.connect('mongodb://mongo/codeforum', 
     {
         useNewUrlParser:true, 
         useUnifiedTopology:true,
