@@ -1,0 +1,42 @@
+version: '3.5'
+
+#Red que compartirán todos los contenedores
+networks:
+    codeforum:
+
+services:
+
+    back-deploy:
+        #Podemos también construir la imagen nosotros con un archivo dockerfile
+        build: 
+            context: ./
+            dockerfile: dockerfile
+        container_name: back
+        #Puertos (máquina host:contenedor)
+        ports:
+            - "3001:3000"
+        depends_on:
+            - mongo
+        #Se reiniciará el contenedor a menos que se pare manualmente
+        restart: always
+        networks:
+            - codeforum
+
+    mongo:
+        image: mongo
+        container_name: mongo
+        environment:
+            - MONGO_INITDB_DATABASE=codeforum
+        ports:
+            - "27018:27017"
+        volumes:
+            - database-codeforum:/data/db
+        restart: always
+        networks:
+            - codeforum
+
+volumes:
+    #Este volumen permanece aunque destruyamos el contenedor de mysql y lo volvamos a crear por 
+    #lo que la base de datos no se borra
+    database-codeforum:
+        
