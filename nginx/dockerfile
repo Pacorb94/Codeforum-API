@@ -3,7 +3,7 @@ FROM node:14.17.4-alpine3.14 as build
 #Creamos este directorio y nos movemos a él
 WORKDIR /Codeforum
 #Copiamos el backend al directorio del contenedor
-COPY ../ .
+COPY ../ ./
 #Instalamos las dependencias
 RUN npm i
 #Iniciamos el backend
