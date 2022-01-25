@@ -1,5 +1,5 @@
 node_modules
-dockerfile
+nginx/dockerfile
 .git
 .gitignore
 *.md
