@@ -10,7 +10,7 @@ services:
         #Podemos también construir la imagen nosotros con un archivo dockerfile
         build: 
             context: ./
-            dockerfile: dockerfile
+            dockerfile: nginx/dockerfile
         container_name: back
         #Puertos (máquina host:contenedor)
         ports:
